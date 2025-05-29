@@ -1,0 +1,10 @@
+name = "extractor"
+version = "0.1.0"
+defaultTargets = ["extractor"]
+
+[[lean_lib]]
+name = "Extractor"
+
+[[lean_exe]]
+name = "extractor"
+root = "Main"
